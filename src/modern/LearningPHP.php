@@ -1,5 +1,4 @@
 <?php
-
 namespace learning\php\modern;
 
 class LearningPHP
