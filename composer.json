@@ -1,0 +1,32 @@
+{
+	"name": "wonghoifung/learningphp",
+	"description": "learning PHP",
+	"keywords": ["wonghoifung","learning"],
+	"homepage": "https://github.com/wonghoifung/LearningPHP",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "wonghoifung",
+			"homepage": "https://github.com/wonghoifung",
+			"role": "Developer"
+		}
+	],
+	"suppert": {
+		"email": "wonghoifung85@outlook.com"
+	},
+	"require": {
+		"php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+	"require-dev": {
+	
+	},
+	"suggest": {
+		"league/csv": "^8.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"learning\\php\\": "src/"
+		}
+	}
+}
